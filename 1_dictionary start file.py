@@ -134,14 +134,14 @@ print()
 print('*****  start section 9 - using random and converting to list ********')
 print()
 
-# listofkeys = list(phonebook)
-# print(listofkeys)
+listofkeys = list(phonebook)
+print(listofkeys)
 
-# randomkey = random.choice(listofkeys)
-# print(randomkey)
-# print(phonebook[randomkey])
+randomkey = random.choice(listofkeys)
+print(randomkey)
+print(phonebook[randomkey])
 
-print(phonebook[random.choice(list(phonebook))])
+#print(phonebook[random.choice(list(phonebook))])
 
 print()
 print('*****  end section 9 ********')
