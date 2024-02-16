@@ -38,9 +38,10 @@ print(f'----------------------------------------\n\n')
 
 for i in schoolList:
     if i['NCAA']['NAIA conference number football (IC2020)'] in confList:
-        if i['Total price for in-state students living on campus 2020-21 (DRVIC2020)'] > 50000:
-            print(f'University: {i['instnm']}')
-            print(f'Total price for in-state students living off campus: ${i['Total price for in-state students living on campus 2020-21 (DRVIC2020)']:,.2f}\n\n')
+        if i['Total price for in-state students living off campus (not with family)  2020-21 (DRVIC2020)'] != None:
+            if i['Total price for in-state students living off campus (not with family)  2020-21 (DRVIC2020)'] > 50000:
+                print(f'University: {i['instnm']}')
+                print(f'Total price for in-state students living off campus: ${i['Total price for in-state students living on campus 2020-21 (DRVIC2020)']:,.2f}\n\n')
 
 
 
