@@ -15,7 +15,7 @@ for k, v in student.items():
         j = 0
         for i in student['hobbies']:
             if j == len(student['hobbies']) - 1:    # properly prints last element in hobbies
-                print(f'{i}')
+                print(f'and {i}')
             else:
                 print(f'{i}', end = ', ')           # prints elements in hobbies
             j += 1

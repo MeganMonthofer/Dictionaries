@@ -18,6 +18,5 @@ def recommend_movie(movie_ratings, movie):
                 print(f'{k} - rated {v}/10')
                 
 
-
 if __name__ == "__main__":
     main()
